@@ -1,0 +1,14 @@
+import com.example.edu.Person as User
+
+fun main() {
+    println("Hello")
+
+    val User = User("Kildong", 20)
+    val person2 = Person(123,"Kildong", "Programmer")
+
+    println(User)
+    println(User.name)
+    println(User.age)
+}
+
+class Person(val no: Int, val name: String, val jobTitle: String)
